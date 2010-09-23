@@ -1,0 +1,20 @@
+http://github.com/svoop/autotest-fsevent
+require 'autotest/fsevent'
+
+require 'autotest_notification'
+SPEAKING = false
+DOOM_EDITION = false
+BUUF = true
+PENDING = true
+STICKY = false
+SUCCESS_SOUND = ''
+FAILURE_SOUND = ''
+
+#from: http://ph7spot.com/musings/getting-started-with-autotest
+# Autotest.add_hook :initialize do |autotest|
+#   %w{.git .svn .hg .DS_Store ._* vendor tmp log doc}.each do |exception|
+#     autotest.add_exception(exception)
+#   end
+# end
+#
+
