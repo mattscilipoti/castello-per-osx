@@ -2,4 +2,4 @@ export EDITOR='mate -w'
 export VISUAL='mate -w'
 
 # Homebrew completion
-source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
+source `brew --prefix`/Library/Contributions/brew_zsh_completion.zsh
