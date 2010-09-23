@@ -1,5 +1,5 @@
-export EDITOR='mate -w'
-export VISUAL='mate -w'
+export EDITOR='mvim -f'
+export VISUAL='mvim -f' #'mate -w'
 
 # Homebrew completion
 source `brew --prefix`/Library/Contributions/brew_zsh_completion.zsh
